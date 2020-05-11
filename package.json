@@ -1,0 +1,14 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "description": "JavaScript на базе Математики 4-11 классов",
+  "main": "index.js",
+  "author": "fedor",
+  "license": "MIT",
+  "scripts": {
+    "web": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
