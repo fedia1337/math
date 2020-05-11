@@ -8,6 +8,7 @@ const firstS = square (firstW, firstH)
 const first = document.getElementById ("first")
 first.style.width = `${firstW}cm`
 first.style.height = `${firstH}cm`
+first.innerText = "S = " + firstS
 
 console.log(firstS)
 
@@ -21,6 +22,7 @@ const secondS = square (secondH, secondW)
 const second = document.getElementById ("second")
 second.style.width = `${secondW}cm`
 second.style.height = `${secondH}cm`
+second.innerText = "S = " + secondS
 
 console.log(secondS)
 
@@ -33,6 +35,7 @@ const fediaS =square (fediaW, fediaH)
 const fedia = document.getElementById ("fedia")
 fedia.style.width = `${fediaW}cm`
 fedia.style.height = `${fediaH}cm`
+fedia.innerText = "S = " + fediaS
 
 console.log(fediaS)
 
