@@ -3,7 +3,7 @@ console.log("hello andrew")
 // --- first (green) ---------------------------
 const firstW = 4
 const firstH = 3
-const firstS = firstW * firstH
+const firstS = square (firstW, firstH)
 
 const first = document.getElementById ("first")
 first.style.width = `${firstW}cm`
@@ -14,16 +14,29 @@ console.log(firstS)
 
 // --- second (orange) -----------------------
 
-/*
+const secondW = 3
+const secondH = 3
+const secondS = square (secondH, secondW)
 
-const first = 3
-const firstH = 3
-const firstS = firstW * firstH
+const second = document.getElementById ("second")
+second.style.width = `${secondW}cm`
+second.style.height = `${secondH}cm`
 
-const first = document.getElementById ("first")
-first.style.width = `${firstW}cm`
-first.style.height = `${firstH}cm`
+console.log(secondS)
 
-console.log(firstS)
 
- */
+// --- fedia (pink) -----------------------
+const fediaW = 4
+const fediaH = 2
+const fediaS =square (fediaW, fediaH)
+
+const fedia = document.getElementById ("fedia")
+fedia.style.width = `${fediaW}cm`
+fedia.style.height = `${fediaH}cm`
+
+console.log(fediaS)
+
+
+function square(width, height){
+    return width * height
+}
